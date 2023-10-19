@@ -1,0 +1,9 @@
+Prerequisites:
+- VSCode extension Tailwind CSS IntelliSense
+
+Project Structure:
+- I put "components" folder in the root and not in the app because accordingly to the Next.JS 13.4 syntax in the app folder I should have the pages, layouts, and routes
+
+REFRESHERS:
+- overflow: hidden = verflow content is clipped at the element's padding box
+- in global.css I use a lot of tailwind arbitrary values
