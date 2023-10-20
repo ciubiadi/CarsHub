@@ -1,4 +1,5 @@
 export interface ICustomButtonProps {
     title: string;
-    customStyles: string;
+    customStyles?: string;
+    btnType?: 'button' | 'submit'; 
 }
