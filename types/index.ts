@@ -41,6 +41,16 @@ export interface ICar {
     year: number;
 }
 
+export interface ICarCard {
+    model: string;
+    make: string;
+    mpg: number;
+    transmission: string;
+    year: number;
+    drive: string;
+    cityMPG: number;
+}
+
 export interface FilterProps {
     manufacturer?: string;
     year?: number;
@@ -51,4 +61,9 @@ export interface FilterProps {
 
 export interface HomeProps {
     searchParams: FilterProps;
-  }
+}
+
+export interface IShowMore {
+    pageNumber: number;
+    isNext: boolean;
+}
