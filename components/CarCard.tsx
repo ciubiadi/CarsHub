@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image';
 import { ICar } from '@/types';
 import { calculateCarRent } from '@/utils';
-import { CustomButton } from '.';
+import { CarDetails, CustomButton } from '.';
 
 interface ICarCard {
     car: ICar;
@@ -13,6 +13,9 @@ interface ICarCard {
 const CarCard = ({ car } : ICarCard) => {
     const { city_mpg, year, make, model, transmission, drive } = car;
     
+    // flag for modal
+    const [isOpen, setIsOpen] = useState(false);
+
     const carRent = calculateCarRent(city_mpg, year);
 
     return (
@@ -67,7 +70,7 @@ const CarCard = ({ car } : ICarCard) => {
                             src="/gas.svg" 
                             alt="consumption"
                             width={20} 
-                            height={20}
+                            height={20} 
                         />
                         <p className='car-card__icon-text'>
                             {city_mpg} MPG
@@ -81,9 +84,16 @@ const CarCard = ({ car } : ICarCard) => {
                         customStyles='w-full py-[16px] rounded-full bg-primary-blue'
                         textStyles='text-white text-[14px] leading-[17px] font-bold'
                         rightIcon='/right-arrow.svg'
+                        handleClick={() => setIsOpen(true)}
                     />
                 </div>
             </div>
+
+            <CarDetails 
+                isOpen={isOpen} 
+                closeModal={() => setIsOpen(false)} 
+                car={car}
+            />
         </div>
     )
 }
