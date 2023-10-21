@@ -19,27 +19,30 @@ const Footer = () => {
                     All rights reserved &copy;
                 </p>
             </div>
+
+            {/* Footer Links */}
+            <div className="footer__links">
+                {footerLinks.map((link) => (
+                    <div key={link.title}
+                        className="footer__link"
+                    >
+                        <h3 className="footer__bold">{link.title}</h3>
+                        <div className="flex flex-col gap-5">
+                            {link.links.map((item) => (
+                                <Link 
+                                    key={item.title}
+                                    href={item.url}
+                                    className="text-gray-500"
+                                >
+                                    {item.title}
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
 
-        {/* Footer Links */}
-        <div className="footer__links">
-            {footerLinks.map((link) => (
-                <div key={link.title}
-                    className="footer__link"
-                >
-                    <h3 className="footer__bold">{link.title}</h3>
-                    {link.links.map((item) => (
-                        <Link 
-                            key={item.title}
-                            href={item.url}
-                            className="text-gray-500"
-                        >
-                            {item.title}
-                        </Link>
-                    ))}
-                </div>
-            ))}
-        </div>
             
         {/* Footer Rights and Privacy */}
         <div className="flex justify-between items-center 
