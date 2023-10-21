@@ -4,20 +4,32 @@ import { useRouter } from 'next/navigation';
 import React, { useState, Fragment } from 'react'
 import { Listbox, Transition } from '@headlessui/react';
 import Image from 'next/image';
+import { updateSearchParams } from '@/utils';
 
 const CustomFilter = ({ title, options } : ICustomFilter) => {
+    const router = useRouter();
+    const [selected, setSelected] = useState(options[0]); // State for storing the selected option
+  
+    // update the URL search parameters and navigate to the new URL
+    const handleUpdateParams = (e: { title: string; value: string }) => {
+      const newPathName = updateSearchParams(title, e.value.toLowerCase());
+  
+      router.push(newPathName);
+    };
+
     return (
         <div className='w-fit'>
             <Listbox
-                value="Test_Value"
+                value={selected}
                 onChange={(e) => {
-                    console.log('listbox changed')
+                    setSelected(e); // Update the selected option in state
+                    handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL
                 }}
             >
                 <div className='relative w-fit z-10'>
                     {/* Button for the listbox */}
                     <Listbox.Button className='custom-filter__btn'>
-                        <span className='block truncate'>Selecteed</span>
+                        <span className='block truncate'>{selected.title}</span>
                         <Image src='/chevron-up-down.svg' width={20} height={20} className='ml-4 object-contain' alt='chevron_up-down' />
                     </Listbox.Button>
                     {/* Transition for displaying the options */}
