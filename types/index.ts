@@ -1,7 +1,13 @@
+import { MouseEventHandler } from "react";
+
 export interface ICustomButtonProps {
     title: string;
     customStyles?: string;
     btnType?: 'button' | 'submit'; 
+    rightIcon?: string;
+    textStyles?: string;
+    isDisabled?: boolean;
+    handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
 export interface ICustomFilter {
