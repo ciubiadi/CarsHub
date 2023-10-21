@@ -10,8 +10,14 @@ export interface ICustomButton {
     handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
+export interface IOptionProps {
+    title: string;
+    value: string;
+}
+
 export interface ICustomFilter {
     title: string;
+    options: IOptionProps[];
 }
 
 export interface ISearchManufacturer {
@@ -42,7 +48,7 @@ export interface FilterProps {
     limit?: number;
     fuel?: string;
   }
-  
+
 export interface HomeProps {
     searchParams: FilterProps;
   }
