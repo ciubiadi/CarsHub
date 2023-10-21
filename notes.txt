@@ -1,5 +1,6 @@
 Prerequisites:
 - VSCode extension Tailwind CSS IntelliSense
+- HeadlessUI : provides commopnents out of the box. : headlessui.com/react/combobox
 
 Project Structure:
 - I put "components" folder in the root and not in the app because accordingly to the Next.JS 13.4 syntax in the app folder I should have the pages, layouts, and routes

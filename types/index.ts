@@ -3,3 +3,12 @@ export interface ICustomButtonProps {
     customStyles?: string;
     btnType?: 'button' | 'submit'; 
 }
+
+export interface ICustomFilter {
+    title: string;
+}
+
+export interface ISearchManufacturer {
+    manufacturer: string;
+    setManufacturer: (manufacturer: string) => void;
+}
