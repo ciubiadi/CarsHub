@@ -7,3 +7,8 @@ Project Structure:
 REFRESHERS:
 - overflow: hidden = verflow content is clipped at the element's padding box
 - in global.css I use a lot of tailwind arbitrary values
+
+
+
+Constants :
+- I use this approach because I can add footer links or car manufacturers easier directly in the arrays.
