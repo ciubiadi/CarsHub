@@ -28,7 +28,9 @@ Due to the NextJS 13 bug that resets scroll position when search params are upda
 ### What's next?
 * Implement authentication system
 * Implement favourite cars system management, and allow other users see what cars you have added in your favourite list
-* Implement a car rental system
+* Implement a car booking/rental system
+* implement a switcher for Fuel Consumpton ( MPG and L/KM )
+* Implement more filters (e.g Number of Doors, Body Type )
 
 ### Desktop Hero Home
 <img width="90%" alt="Screenshot 2023-10-22 at 16 30 12" src="https://github.com/ciubiadi/CarsHub/assets/46215033/fccc1381-51c2-4c4f-990d-fe8e63860f92">
