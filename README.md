@@ -21,7 +21,7 @@ In this project I've learned and practiced :
 
 ### Note: NextJs 13 Bug 
 Due to the NextJS 13 bug that resets scroll position when search params are updated (https://github.com/vercel/next.js/issues/49087). So in order to fix this, <strong>the code was refactored and from server-rendering the app switched to client-rendering. </strong>
-<strong>! This version can be checked here ( on the "client-side-rendered" branch ) : https://github.com/ciubiadi/CarsHub/tree/client-side-rendered ! </strong>
+<br /><strong>! This version can be checked here ( on the "client-side-rendered" branch ) : https://github.com/ciubiadi/CarsHub/tree/client-side-rendered ! </strong>
 
 ### Desktop Hero Home
 <img width="90%" alt="Screenshot 2023-10-22 at 16 30 12" src="https://github.com/ciubiadi/CarsHub/assets/46215033/fccc1381-51c2-4c4f-990d-fe8e63860f92">
