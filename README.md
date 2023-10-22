@@ -4,6 +4,8 @@ This app allows the user to search fpr diverse cars and filter them by Fuel and 
 The Images of the car were provided by the ImaginStudio Car Image API(https://www.imagin.studio/car-image-api) by simply giving dynamically the source of the Image from "https://cdn.imagin.studio/getimage?", with the desired parameters of course.
 The cars were fetched with the help of Cars By API Ninjas ( https://rapidapi.com/apininjas/api/cars-by-api-ninjas ).
 
+<strong>The app can be tested here : https://carshub-five.vercel.app/</strong>
+
 ### What I have learned
 In this project I've learned and practiced :
 * Practiced Typescript
