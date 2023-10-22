@@ -43,3 +43,8 @@ Due to the NextJS 13 bug that resets scroll position when search params are upda
 ### Mobile Footer
 <img width="45%" alt="Screenshot 2023-10-22 at 16 45 04" src="https://github.com/ciubiadi/CarsHub/assets/46215033/f457c83a-29b1-478b-851e-2833b4fb4746">
 <img width="45%" alt="Screenshot 2023-10-22 at 16 44 53" src="https://github.com/ciubiadi/CarsHub/assets/46215033/18f2195a-a119-42cb-b0b3-505c91208b4d">
+
+### What's next?
+* Implement authentication system
+* Implement favourite cars system management, and allow other users see what cars you have added in your favourite list
+* Implement a car rental system
