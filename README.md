@@ -1,4 +1,4 @@
-<img width="525" alt="Screenshot 2023-10-22 at 16 38 03" src="https://github.com/ciubiadi/CarsHub/assets/46215033/f6ef3bbc-0385-4c82-bbed-cb9041d0da71"># Food Order App
+# Car Hub App
 ## App description
 This app allows the user to search fpr diverse cars and filter them by Fuel and Year. The user can view extra details for each car, such as images of the car, the Fuel Urban Consumption, the class of the car, the number of cylinders, type of transmission. and many others.
 The Images of the car were provided by the ImaginStudio Car Image API(https://www.imagin.studio/car-image-api) by simply giving dynamically the source of the Image from "https://cdn.imagin.studio/getimage?", with the desired parameters of course.
