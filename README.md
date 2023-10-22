@@ -23,20 +23,20 @@ In this project I've learned and practiced :
 * How to use Vercel for application deployment 
 
 ### Desktop Hero Home
-<img width="45%" alt="Screenshot 2023-10-22 at 16 30 12" src="https://github.com/ciubiadi/CarsHub/assets/46215033/fccc1381-51c2-4c4f-990d-fe8e63860f92">
+<img width="95%" alt="Screenshot 2023-10-22 at 16 30 12" src="https://github.com/ciubiadi/CarsHub/assets/46215033/fccc1381-51c2-4c4f-990d-fe8e63860f92">
 
 ### Desktop Catalogue
-<img width="45%" alt="Screenshot 2023-10-22 at 16 30 26" src="https://github.com/ciubiadi/CarsHub/assets/46215033/a89b5d0d-bf47-4889-8a76-7c4caa5977bc">
+<img width="95%" alt="Screenshot 2023-10-22 at 16 30 26" src="https://github.com/ciubiadi/CarsHub/assets/46215033/a89b5d0d-bf47-4889-8a76-7c4caa5977bc">
 
 ### Desktop Footer
-<img width="45%" alt="Screenshot 2023-10-22 at 16 30 42" src="https://github.com/ciubiadi/CarsHub/assets/46215033/db08dfa2-f3f8-4d42-b178-e30c7bd9c82d">
+<img width="95%" alt="Screenshot 2023-10-22 at 16 30 42" src="https://github.com/ciubiadi/CarsHub/assets/46215033/db08dfa2-f3f8-4d42-b178-e30c7bd9c82d">
 
 
 ### Mobile Hero Home
-<img width="45%" alt="Screenshot 2023-10-22 at 16 37 41" src="https://github.com/ciubiadi/CarsHub/assets/46215033/2299b3a3-5b1e-4d00-9e7f-19ca663cda56">
+<img width="95%" alt="Screenshot 2023-10-22 at 16 37 41" src="https://github.com/ciubiadi/CarsHub/assets/46215033/2299b3a3-5b1e-4d00-9e7f-19ca663cda56">
 
 ### Mobile Catalogue
-<img width="45%" alt="Screenshot 2023-10-22 at 16 38 03" src="https://github.com/ciubiadi/CarsHub/assets/46215033/a1d505ce-5f24-41b2-957c-7a9ef1c39e58">
+<img width="95%" alt="Screenshot 2023-10-22 at 16 38 03" src="https://github.com/ciubiadi/CarsHub/assets/46215033/a1d505ce-5f24-41b2-957c-7a9ef1c39e58">
 
 ### Mobile Footer
 <img width="45%" alt="Screenshot 2023-10-22 at 16 45 04" src="https://github.com/ciubiadi/CarsHub/assets/46215033/f457c83a-29b1-478b-851e-2833b4fb4746">
