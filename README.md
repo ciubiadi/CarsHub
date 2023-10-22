@@ -49,7 +49,7 @@ Due to the NextJS 13 bug that resets scroll position when search params are upda
 <img width="90%" alt="Screenshot 2023-10-22 at 17 34 37" src="https://github.com/ciubiadi/CarsHub/assets/46215033/9cadcc9c-e81c-4217-b433-702f6780c119">
 
 ### Car Details Modal Mobile
-<img width="45%" alt="Screenshot 2023-10-22 at 17 35 35" src="https://github.com/ciubiadi/CarsHub/assets/46215033/19917d9c-7387-42ec-97f5-a2a1709550df">
+<img width="90%" alt="Screenshot 2023-10-22 at 17 35 35" src="https://github.com/ciubiadi/CarsHub/assets/46215033/19917d9c-7387-42ec-97f5-a2a1709550df">
 
 ### Mobile Footer
 <img width="45%" alt="Screenshot 2023-10-22 at 16 45 04" src="https://github.com/ciubiadi/CarsHub/assets/46215033/f457c83a-29b1-478b-851e-2833b4fb4746">
