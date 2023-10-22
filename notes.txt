@@ -1,6 +1,6 @@
 Prerequisites:
 - VSCode extension Tailwind CSS IntelliSense
-- HeadlessUI : provides commopnents out of the box. : headlessui.com/react/combobox
+- HeadlessUI : provides commopnents out of the box. : headlessui.com/react
 - RapidAPI (Cars by API-Ninjas) : https://rapidapi.com/apininjas/api/cars-by-api-ninjas
 - ImaginStudio Car Image API : https://www.imagin.studio/car-image-api
 
