@@ -1,24 +1,19 @@
-// Export all the components so I can import them in a simple manner
-import Hero from "./Hero";
-import CustomButton from "./CustomButton";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import SearchBar from "./SearchBar";
-import CustomFilter from "./CustomFilter";
-import SearchManufacturer from "./SearchManufacturer";
 import CarCard from "./CarCard";
-import CarDetails from "./CarDetails";
+import CustomButton from "./CustomButton";
+import CustomFilter from "./CustomFilter";
+import Footer from "./Footer";
+import NavBar from "./Navbar";
 import ShowMore from "./ShowMore";
+import SearchBar from "./Searchbar";
+import Hero from "./Hero";
 
 export {
-    Hero,
-    CustomButton,
-    Navbar,
-    Footer,
-    SearchBar,
-    CustomFilter,
-    SearchManufacturer,
-    CarCard,
-    CarDetails,
-    ShowMore
-}
+  Hero,
+  CarCard,
+  CustomButton,
+  CustomFilter,
+  Footer,
+  NavBar,
+  ShowMore,
+  SearchBar,
+};

@@ -10,8 +10,8 @@ const Footer = () => {
                 <Image 
                     src="/logo.svg"
                     alt="logo"
-                    width={120}
-                    height={20}
+                    width={118}
+                    height={18}
                     className="object-contain"            
                 />
                 <p className="text-base text-gray-700">

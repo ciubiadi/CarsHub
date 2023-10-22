@@ -1,69 +1,72 @@
 import { MouseEventHandler } from "react";
 
-export interface ICustomButton {
-    title: string;
-    customStyles?: string;
-    btnType?: 'button' | 'submit'; 
-    rightIcon?: string;
-    textStyles?: string;
-    isDisabled?: boolean;
-    handleClick?: MouseEventHandler<HTMLButtonElement>;
+export interface ICarProps {
+  city_mpg: number;
+  class: string;
+  combination_mpg: number;
+  cylinders: number;
+  displacement: number;
+  drive: string;
+  fuel_type: string;
+  highway_mpg: number;
+  make: string;
+  model: string;
+  transmission: string;
+  year: number;
+}
+
+export type CarState = ICarProps[] & { message?: string };
+
+export interface ISearchBarProps {
+  setManuFacturer: (manufacturer: string) => void;
+  setModel: (model: string) => void;
+}
+
+export interface IFilterProps {
+  manufacturer?: string;
+  year?: number;
+  model?: string;
+  limit?: number;
+  fuel?: string;
+}
+
+export interface ICarCardProps {
+  model: string;
+  make: string;
+  mpg: number;
+  transmission: string;
+  year: number;
+  drive: string;
+  cityMPG: number;
+}
+
+export interface ICustomButtonProps {
+  isDisabled?: boolean;
+  btnType?: "button" | "submit";
+  containerStyles?: string;
+  textStyles?: string;
+  title: string;
+  rightIcon?: string;
+  handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
 export interface IOptionProps {
-    title: string;
-    value: string;
+  title: string;
+  value: string;
 }
 
-export interface ICustomFilter {
-    title: string;
-    options: IOptionProps[];
+export interface ICustomFilterProps<T> {
+  options: IOptionProps[];
+  setFilter: (selected: T) => void;
 }
 
-export interface ISearchManufacturer {
-    manufacturer: string;
-    setManuFacturer: (manufacturer: string) => void;
+export interface IShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
+  setLimit: (limit: number) => void;
 }
 
-// take from the Cars API Ninja
-export interface ICar {
-    city_mpg: number;
-    class: string;
-    combination_mpg: number;
-    cylinders: number;
-    displacement: number;
-    drive: string;
-    fuel_type: string;
-    highway_mpg: number;
-    make: string;
-    model: string;
-    transmission: string;
-    year: number;
-}
-
-export interface ICarCard {
-    model: string;
-    make: string;
-    mpg: number;
-    transmission: string;
-    year: number;
-    drive: string;
-    cityMPG: number;
-}
-
-export interface FilterProps {
-    manufacturer?: string;
-    year?: number;
-    model?: string;
-    limit?: number;
-    fuel?: string;
-  }
-
-export interface HomeProps {
-    searchParams: FilterProps;
-}
-
-export interface IShowMore {
-    pageNumber: number;
-    isNext: boolean;
+export interface ISearchManuFacturerProps {
+  selected: string;
+  setSelected: (selected: string) => void;
 }
