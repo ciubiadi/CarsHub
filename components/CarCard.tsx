@@ -36,7 +36,7 @@ const CarCard = ({ car } : ICarCard) => {
                 <Image 
                     src={generateCarImageUrl(car)}
                     alt="car model"
-                    className='object-contain'
+                    className='object-contain z-[0]'
                     fill priority
                 />
             </div>
