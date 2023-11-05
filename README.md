@@ -6,7 +6,7 @@ The cars were fetched with the help of Cars By API Ninjas ( https://rapidapi.com
 
 <strong>The app can be tested here : https://carshub-five.vercel.app/</strong>
 
-### What I have learned
+### What I learned
 In this project I've learned and practiced :
 * Practiced Typescript
 * Tailwind CSS
