@@ -1,6 +1,6 @@
 # Car Hub App
 ## App description
-This app allows the user to search fpr diverse cars and filter them by Fuel and Year. The user can view extra details for each car, such as images of the car, the Fuel Urban Consumption, the class of the car, the number of cylinders, type of transmission. and many others.
+This app allows the user to search for diverse cars and filter them by Fuel and Year. The user can view extra details for each car, such as images of the car, the Fuel Urban Consumption, the class of the car, the number of cylinders, type of transmission. and many others.
 The Images of the car were provided by the ImaginStudio Car Image API(https://www.imagin.studio/car-image-api) by simply giving dynamically the source of the Image from "https://cdn.imagin.studio/getimage", with the desired parameters of course.
 The cars were fetched with the help of Cars By API Ninjas ( https://rapidapi.com/apininjas/api/cars-by-api-ninjas ).
 
